@@ -23,6 +23,7 @@ multiplicacion(7, 3)
 #pip freeze
 #pip install #instalar en el script del entorno virtual
 #pip freeze > requirements.txt #va en la raiz del proyecto
+#pip install -r requirements.txt
 
 #crear el requerimiento
 #py -m venv venv #genera entorno virtual
@@ -30,4 +31,6 @@ multiplicacion(7, 3)
 #.\activate #dentro de script
 #pip freeze
 #pip install -r .\requirements.txt
+#py -m pip install requests
+#pip install requests==2.28.2
 
